@@ -73,6 +73,7 @@ func (n *Node) ToOpData() [][]byte {
 
 
 
+
 //Build MetaId func: Root, Info, Protocol, name
 func BuildNewMetaId(nodeNames map[string]string, nickName string, utxos []Utxo, priKeys map[string]string) ([]string, []string, error) {
 	var(
